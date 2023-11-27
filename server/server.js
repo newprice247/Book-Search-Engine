@@ -1,6 +1,3 @@
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV || 'development'}`,
-});
 const express = require('express');
 const path = require('path');
 const db = require('./config/connection');
